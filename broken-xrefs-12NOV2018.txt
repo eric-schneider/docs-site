@@ -1,0 +1,541 @@
+repo: //github.com/couchbase/couchbase-elasticsearch-connector | branch: master | component: elasticsearch-connector | version: 4.0
+  path: docs/modules/ROOT/pages/secure-connections.adoc | xref: server:security:security-x509certsintro.adoc
+
+repo: //github.com/couchbase/docs-sdk-c | branch: release/2.10 | component: c-sdk | version: 2.10
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-c | branch: release/2.7 | component: c-sdk | version: 2.7
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 4.6@server:settings:settings.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 4.6@server:indexes:querying-using-map-reduce-views.adoc
+
+repo: //github.com/couchbase/docs-sdk-c | branch: release/2.8 | component: c-sdk | version: 2.8
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/managing-connections.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:concepts-rba-for-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-c | branch: release/2.9 | component: c-sdk | version: 2.9
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/managing-connections.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:concepts-rba-for-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-dotnet | branch: release/2.4 | component: dotnet-sdk | version: 2.4
+  path: modules/ROOT/pages/datastructures.adoc | xref: 4.6@server:developer-guide:cas-concurrency.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 4.6@server:indexes:querying-using-map-reduce-views.adoc
+
+repo: //github.com/couchbase/docs-sdk-dotnet | branch: release/2.5 | component: dotnet-sdk | version: 2.5
+  path: modules/ROOT/pages/datastructures.adoc | xref: 5.1@server:developer-guide:cas-concurrency.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 5.1@server:indexes:querying-using-map-reduce-views.adoc
+
+repo: //github.com/couchbase/docs-sdk-dotnet | branch: release/2.6 | component: dotnet-sdk | version: 2.6
+  path: modules/ROOT/pages/datastructures.adoc | xref: 6.0@server:developer-guide:cas-concurrency.adoc
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-certs-auth.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-x509certsintro.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-dotnet | branch: release/2.7 | component: dotnet-sdk | version: 2.7
+  path: modules/ROOT/pages/datastructures.adoc | xref: 6.0@server:developer-guide:cas-concurrency.adoc
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-x509certsintro.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-go | branch: release/1.0 | component: go-sdk | version: 1.0
+  path: modules/ROOT/pages/tutorial.adoc | xref: op-basics.adoc
+  path: modules/ROOT/pages/tutorial.adoc | xref: n1ql-queries.adoc
+
+repo: //github.com/couchbase/docs-sdk-go | branch: release/1.2 | component: go-sdk | version: 1.2
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 5.1@server:settings:settings.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 5.1@server:indexes:querying-using-map-reduce-views.adoc
+
+repo: //github.com/couchbase/docs-sdk-go | branch: release/1.3 | component: go-sdk | version: 1.3
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/managing-connections.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-go | branch: release/1.4 | component: go-sdk | version: 1.4
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/managing-connections.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-go | branch: release/1.5 | component: go-sdk | version: 1.5
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-java | branch: release/2.2 | component: java-sdk | version: 2.2
+  path: modules/ROOT/pages/tutorial4.adoc | xref: tutorial3.adoc
+
+repo: //github.com/couchbase/docs-sdk-java | branch: release/2.4 | component: java-sdk | version: 2.4
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 4.6@server:indexes:querying-using-map-reduce-views.adoc
+
+repo: //github.com/couchbase/docs-sdk-java | branch: release/2.5 | component: java-sdk | version: 2.5
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 5.1@server:settings:settings.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 5.1@server:indexes:querying-using-map-reduce-views.adoc
+
+repo: //github.com/couchbase/docs-sdk-java | branch: release/2.6 | component: java-sdk | version: 2.6
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/n1ql-queries-with-sdk.adoc | xref: 6.0@server:architecture:querying-data-with-n1ql.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-certs-auth.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-x509certsintro.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-java | branch: release/2.7 | component: java-sdk | version: 2.7
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-nodejs | branch: release/2.3 | component: nodejs-sdk | version: 2.3
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 4.6@server:settings:settings.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 4.6@server:indexes:querying-using-map-reduce-views.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: 4.6@server:getting-started:installing.adoc
+
+repo: //github.com/couchbase/docs-sdk-nodejs | branch: release/2.4 | component: nodejs-sdk | version: 2.4
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 5.1@server:settings:settings.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 5.1@server:indexes:querying-using-map-reduce-views.adoc
+
+repo: //github.com/couchbase/docs-sdk-nodejs | branch: release/2.5 | component: nodejs-sdk | version: 2.5
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/managing-connections.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:architecture:incremental-map-reduce-views.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:indexes:querying-using-map-reduce-views.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-nodejs | branch: release/2.6 | component: nodejs-sdk | version: 2.6
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:architecture:incremental-map-reduce-views.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:indexes:querying-using-map-reduce-views.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-php | branch: release/2.2 | component: php-sdk | version: 2.2
+  path: modules/ROOT/nav.adoc | xref: relnotes-php-sdk.adoc
+
+repo: //github.com/couchbase/docs-sdk-php | branch: release/2.3 | component: php-sdk | version: 2.3
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 4.6@server:settings:settings.adoc
+
+repo: //github.com/couchbase/docs-sdk-php | branch: release/2.4 | component: php-sdk | version: 2.4
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/n1ql-queries-with-sdk.adoc | xref: 6.0@server:n1ql:n1ql-rest-api/executen1ql.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:buckets-memory-and-storage/buckets.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:concepts-rba-for-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-php | branch: release/2.5 | component: php-sdk | version: 2.5
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/n1ql-queries-with-sdk.adoc | xref: 6.0@server:n1ql:n1ql-rest-api/executen1ql.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:buckets-memory-and-storage/buckets.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:concepts-rba-for-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-php | branch: release/2.6 | component: php-sdk | version: 2.6
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 6.0@server:settings:settings.adoc
+  path: modules/ROOT/pages/n1ql-queries-with-sdk.adoc | xref: 6.0@server:n1ql:n1ql-rest-api/executen1ql.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:buckets-memory-and-storage/buckets.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:concepts-rba-for-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: relnotes-c-sdk.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-python | branch: release/2.2 | component: python-sdk | version: 2.2
+  path: modules/ROOT/pages/full-text-searching-with-sdk.adoc | xref: 5.1@server:settings:settings.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 5.1@server:indexes:querying-using-map-reduce-views.adoc
+
+repo: //github.com/couchbase/docs-sdk-python | branch: release/2.3 | component: python-sdk | version: 2.3
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:concepts-rba-for-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-python | branch: release/2.4 | component: python-sdk | version: 2.4
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:concepts-rba-for-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-sdk-python | branch: release/2.5 | component: python-sdk | version: 2.5
+  path: modules/ROOT/pages/full-text-search-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sample-app-backend.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:concepts-rba-for-apps.adoc
+  path: modules/ROOT/pages/sdk-authentication-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-user-management-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-rbac-for-admins-and-apps.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-roles.adoc
+  path: modules/ROOT/pages/sdk-user-management-overview.adoc | xref: 6.0@server:security:security-resources-under-access-control.adoc
+  path: modules/ROOT/pages/sdk-xattr-example.adoc | xref: 6.0@server:settings:install-sample-buckets.adoc
+  path: modules/ROOT/pages/sdk-xattr-overview.adoc | xref: 6.0@server:understanding-couchbase:data/extended-attributes-fundamentals.adoc
+  path: modules/ROOT/pages/start-using-sdk.adoc | xref: 6.0@server:security:security-authorization.adoc
+  path: modules/ROOT/pages/view-queries-with-sdk.adoc | xref: 6.0@server:understanding-couchbase:views/views-intro.adoc
+
+repo: //github.com/couchbase/docs-server | branch: release/4.0 | component: server | version: 4.0
+  path: modules/clustersetup/pages/automatic-failover.adoc | xref: architecture:smart-data-placement-rack-zone-aware.adoc
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: full-recovery.adoc
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: architecture:smart-data-placement-rack-zone-aware.adoc
+  path: modules/clustersetup/pages/logs-cli-rest.adoc | xref: rest-api:rest-logs-api.adoc
+  path: modules/getting-started/pages/installing.adoc | xref: gs-download-linux.adoc
+  path: modules/security/pages/security-ldap-gui-new.adoc | xref: cli/cli-intro.adoc
+
+repo: //github.com/couchbase/docs-server | branch: release/4.1 | component: server | version: 4.1
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: full-recovery.adoc
+  path: modules/clustersetup/pages/logs-cli-rest.adoc | xref: rest-api:rest-logs-api.adoc
+  path: modules/developer-guide/pages/views-development.adoc | xref: ui:ui-views-editor.adoc
+  path: modules/getting-started/pages/installing.adoc | xref: gs-download-linux.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/union.adoc | xref: developer-guide:covering-indexes.adoc
+  path: modules/security/pages/security-ldap-new.adoc | xref: security-ldap-gui-new.adoc
+
+repo: //github.com/couchbase/docs-server | branch: release/4.5 | component: server | version: 4.5
+  path: modules/clustersetup/pages/change-settings-bucket.adoc | xref: indexes:mapreduce-view-replication.adoc
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: delta-node-recovery.adoc
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: full-recovery.adoc
+  path: modules/data-access/pages/data-access-intro.adoc | xref: 2.3@java-sdk::common/n1ql-query.adoc
+  path: modules/developer-guide/pages/sub-doc-api.adoc | xref: 2.3@java-sdk::common/concurrent-mutations-cluster.adoc
+  path: modules/fts/pages/fts-query-types.adoc | xref: fts-custom-mapping.adoc
+  path: modules/introduction/pages/whats-new.adoc | xref: 2.3@java-sdk::common/subdocument-operations.adoc
+  path: modules/introduction/pages/whats-new.adoc | xref: developer-guide:query-consistency.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/prepare.adoc | xref: 2.3@java-sdk::common/n1ql-query.adoc
+  path: modules/n1ql/pages/n1ql-rest-api/index.adoc | xref: n1ql-rest-api/executen1ql.adoc
+  path: modules/security/pages/security-best-practices.adoc | xref: security-admin-access.adoc
+  path: modules/security/pages/security-x509certsintro.adoc | xref: rest-api:rest-uploads-ca.adoc
+
+repo: //github.com/couchbase/docs-server | branch: release/4.6 | component: server | version: 4.6
+  path: modules/clustersetup/pages/change-settings-bucket.adoc | xref: indexes:mapreduce-view-replication.adoc
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: delta-node-recovery.adoc
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: full-recovery.adoc
+  path: modules/data-access/pages/data-access-intro.adoc | xref: 2.4@java-sdk::common/n1ql-query.adoc
+  path: modules/developer-guide/pages/sub-doc-api.adoc | xref: 2.4@java-sdk::common/concurrent-mutations-cluster.adoc
+  path: modules/fts/pages/fts-query-types.adoc | xref: fts-custom-mapping.adoc
+  path: modules/getting-started/pages/choose-your-next-steps.adoc | xref: 2.4@java-sdk::common/n1ql-query.adoc
+  path: modules/install/pages/deployment-azure.adoc | xref: clustersetup:manage-cluster-intro.adoc
+  path: modules/install/pages/docker-deploy-multi-node-cluster.adoc | xref: 2.4@java-sdk::common/sample-application.adoc
+  path: modules/install/pages/docker-deploy-single-node-cluster.adoc | xref: 2.4@java-sdk::common/sample-application.adoc
+  path: modules/install/pages/getting-started-docker.adoc | xref: 2.4@java-sdk::common/sample-application.adoc
+  path: modules/install/pages/init-setup.adoc | xref: indexes:mapreduce-view-replication.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/insert.adoc | xref: 2.4@java-sdk::common/sample-application.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/prepare.adoc | xref: 2.4@java-sdk::common/n1ql-query.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/selectintro.adoc | xref: 2.4@java-sdk::common/sample-application.adoc
+  path: modules/n1ql/pages/n1ql-rest-api/index.adoc | xref: n1ql-rest-api/executen1ql.adoc
+  path: modules/security/pages/security-best-practices.adoc | xref: security-admin-access.adoc
+  path: modules/security/pages/security-x509certsintro.adoc | xref: rest-api:rest-uploads-ca.adoc
+
+repo: //github.com/couchbase/docs-server | branch: release/5.0 | component: server | version: 5.0
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: delta-node-recovery.adoc
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: full-recovery.adoc
+  path: modules/clustersetup/pages/rebalance.adoc | xref: concepts:multidimensional-scaling.adoc
+  path: modules/connectors/pages/kafka-3.2/quickstart.adoc | xref: 2.5@java-sdk::common/webui-cli-access.adoc
+  path: modules/data-access/pages/data-access-intro.adoc | xref: 2.5@java-sdk::common/n1ql-query.adoc
+  path: modules/developer-guide/pages/extended-attributes-fundamentals.adoc | xref: 2.5@java-sdk::common/subdocument-operations.adoc
+  path: modules/developer-guide/pages/sub-doc-api.adoc | xref: 2.5@java-sdk::common/concurrent-mutations-cluster.adoc
+  path: modules/fts/pages/fts-performing-searches.adoc | xref: 2.5@java-sdk::common/full-text-search-overview.adoc
+  path: modules/fts/pages/fts-troubleshooting.adoc | xref: fts-whats-new.adoc
+  path: modules/getting-started/pages/choose-your-next-steps.adoc | xref: 2.5@java-sdk::common/n1ql-query.adoc
+  path: modules/install/pages/docker-deploy-multi-node-cluster.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/install/pages/docker-deploy-multi-node-cluster.adoc | xref: java-sdk::common/sample-application.adoc
+  path: modules/install/pages/docker-deploy-single-node-cluster.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/install/pages/getting-started-docker.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/install/pages/migrate-mysql.adoc | xref: indexes:n1ql-in-couchbase.adoc
+  path: modules/install/pages/plan-for-production.adoc | xref: cloud-deployment.adoc
+  path: modules/introduction/pages/whats-new.adoc | xref: connectors:spark-2.1/spark-intro.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/dropprimaryindex.adoc | xref: security:security-roles-used-in-access-control.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-arrays.adoc | xref: developer-guide:covering-indexes.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-meta-info.adoc | xref: 2.5@java-sdk::common/concurrent-mutations-cluster.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-meta-info.adoc | xref: 2.5@java-sdk::common/core-operations.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-meta-info.adoc | xref: 2.5@java-sdk::common/nonjson.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/insert.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/prepare.adoc | xref: 2.5@java-sdk::common/n1ql-query.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/selectintro.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/n1ql/pages/n1ql-rest-api/index.adoc | xref: n1ql-rest-api/executen1ql.adoc
+  path: modules/performance/pages/index_pushdowns.adoc | xref: indexes:n1ql-in-couchbase.adoc
+  path: modules/security/pages/security-best-practices.adoc | xref: security-admin-access.adoc
+  path: modules/settings/pages/query-settings.adoc | xref: n1ql:n1ql-language-reference/restapi.adoc
+
+repo: //github.com/couchbase/docs-server | branch: release/5.1 | component: server | version: 5.1
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: delta-node-recovery.adoc
+  path: modules/clustersetup/pages/hard-failover.adoc | xref: full-recovery.adoc
+  path: modules/clustersetup/pages/rebalance.adoc | xref: concepts:multidimensional-scaling.adoc
+  path: modules/data-access/pages/data-access-intro.adoc | xref: 2.5@java-sdk::common/n1ql-query.adoc
+  path: modules/developer-guide/pages/extended-attributes-fundamentals.adoc | xref: 2.5@java-sdk::common/subdocument-operations.adoc
+  path: modules/developer-guide/pages/sub-doc-api.adoc | xref: 2.5@java-sdk::common/concurrent-mutations-cluster.adoc
+  path: modules/fts/pages/fts-performing-searches.adoc | xref: 2.5@java-sdk::common/full-text-search-overview.adoc
+  path: modules/fts/pages/fts-troubleshooting.adoc | xref: fts-whats-new.adoc
+  path: modules/getting-started/pages/choose-your-next-steps.adoc | xref: 2.5@java-sdk::common/n1ql-query.adoc
+  path: modules/install/pages/docker-deploy-multi-node-cluster.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/install/pages/docker-deploy-multi-node-cluster.adoc | xref: java-sdk::common/sample-application.adoc
+  path: modules/install/pages/docker-deploy-single-node-cluster.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/install/pages/getting-started-docker.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/install/pages/migrate-mysql.adoc | xref: indexes:n1ql-in-couchbase.adoc
+  path: modules/install/pages/plan-for-production.adoc | xref: cloud-deployment.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/dropprimaryindex.adoc | xref: security:security-roles-used-in-access-control.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-arrays.adoc | xref: developer-guide:covering-indexes.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-meta-info.adoc | xref: 2.5@java-sdk::common/concurrent-mutations-cluster.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-meta-info.adoc | xref: 2.5@java-sdk::common/core-operations.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-meta-info.adoc | xref: 2.5@java-sdk::common/nonjson.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/insert.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/prepare.adoc | xref: 2.5@java-sdk::common/n1ql-query.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/selectintro.adoc | xref: 2.5@java-sdk::common/sample-application.adoc
+  path: modules/n1ql/pages/n1ql-rest-api/index.adoc | xref: n1ql-rest-api/executen1ql.adoc
+  path: modules/performance/pages/index_pushdowns.adoc | xref: indexes:n1ql-in-couchbase.adoc
+  path: modules/security/pages/security-best-practices.adoc | xref: security-admin-access.adoc
+  path: modules/settings/pages/query-settings.adoc | xref: n1ql:n1ql-language-reference/restapi.adoc
+
+repo: //github.com/couchbase/docs-server | branch: release/5.5 | component: server | version: 5.5
+  path: modules/clustersetup/pages/server-setup.adoc | xref: java-sdk::common/subdocument-operations.adoc
+  path: modules/eventing/pages/eventing-adding-function.adoc | xref: eventing-terminology.adoc
+  path: modules/fts/pages/fts-performing-searches.adoc | xref: java-sdk::common/full-text-search-overview.adoc
+  path: modules/fts/pages/fts-troubleshooting.adoc | xref: fts-whats-new.adoc
+  path: modules/getting-started/pages/choose-your-next-steps.adoc | xref: java-sdk::common/n1ql-query.adoc
+  path: modules/install/pages/getting-started-docker.adoc | xref: java-sdk::common/sample-application.adoc
+  path: modules/install/pages/migrate-mysql.adoc | xref: indexes:n1ql-in-couchbase.adoc
+  path: modules/install/pages/upgrade.adoc | xref: upgrade-matrix.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/dropprimaryindex.adoc | xref: security:security-roles-used-in-access-control.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-arrays.adoc | xref: developer-guide:covering-indexes.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-meta-info.adoc | xref: java-sdk::common/concurrent-mutations-cluster.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-meta-info.adoc | xref: java-sdk::common/core-operations.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/indexing-meta-info.adoc | xref: java-sdk::common/nonjson.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/insert.adoc | xref: java-sdk::common/sample-application.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/prepare.adoc | xref: java-sdk::common/n1ql-query.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/selectintro.adoc | xref: java-sdk::common/sample-application.adoc
+  path: modules/n1ql/pages/n1ql-rest-api/index.adoc | xref: n1ql-rest-api/executen1ql.adoc
+  path: modules/performance/pages/index_pushdowns.adoc | xref: indexes:n1ql-in-couchbase.adoc
+  path: modules/security/pages/security-best-practices.adoc | xref: security-admin-access.adoc
+  path: modules/security/pages/security-best-practices.adoc | xref: security-config-cache.adoc
+  path: modules/settings/pages/query-settings.adoc | xref: n1ql:n1ql-language-reference/restapi.adoc
+  path: modules/understanding-couchbase/pages/buckets-memory-and-storage/expiration.adoc | xref: java-sdk::common/core-operations.adoc
+  path: modules/understanding-couchbase/pages/clusters-and-availability/connectivity-architecture.adoc | xref: java-sdk::common/n1ql-query.adoc
+  path: modules/understanding-couchbase/pages/data/data.adoc | xref: java-sdk::common/subdocument-operations.adoc
+  path: modules/understanding-couchbase/pages/data/data.adoc | xref: java-sdk::common/core-operations.adoc
+  path: modules/understanding-couchbase/pages/data/extended-attributes-fundamentals.adoc | xref: docs-sdk-common::subdocument-operations.adoc
+  path: modules/understanding-couchbase/pages/services-and-indexes/indexes/index-replication.adoc | xref: java-sdk::common/n1ql-query.adoc
+  path: modules/understanding-couchbase/pages/services-and-indexes/services/query-service.adoc | xref: java-sdk::common/n1ql-query.adoc
+
+repo: //github.com/couchbase/docs-server | branch: release/6.0 | component: server | version: 6.0
+  path: modules/eventing/pages/eventing-adding-function.adoc | xref: clustersetup:create-bucket.adoc
+  path: modules/eventing/pages/eventing-debugging-and-diagnosability.adoc | xref: clustersetup:ui-logs.adoc
+  path: modules/eventing/pages/eventing-debugging-and-diagnosability.adoc | xref: clustersetup:logging.adoc
+  path: modules/indexes/pages/covering-indexes.adoc | xref: settings:install-sample-buckets.adoc
+  path: modules/install/pages/getting-started-docker.adoc | xref: travel-app:index.adoc
+  path: modules/install/pages/upgrade-strategy-for-features.adoc | xref: xdcr:xdcr-create.adoc
+  path: modules/install/pages/upgrade-strategy-for-features.adoc | xref: monitoring:ui-monitoring-statistics.adoc
+  path: modules/install/pages/upgrade.adoc | xref: upgrade-matrix.adoc
+  path: modules/learn/pages/clusters-and-availability/size-limitations.adoc | xref: java-sdk::common/subdocument-operations.adoc
+  path: modules/learn/pages/clusters-and-availability/size-limitations.adoc | xref: developer-guide:sub-doc-api.adoc
+  path: modules/learn/pages/security/certificate-based-authentication.adoc | xref: security-rbac-for-admins-and-apps.adoc
+  path: modules/learn/pages/security/password-based-authentication.adoc | xref: manage:manage-security/users-and-roles.adoc
+  path: modules/manage/pages/manage-nodes/recover-nodes.adoc | xref: learn/clusters-and-availability/recovery.adoc
+  path: modules/manage/pages/manage-settings/query-settings.adoc | xref: n1ql:n1ql-language-reference/restapi.adoc
+  path: modules/n1ql/pages/n1ql-language-reference/insert.adoc | xref: java-sdk::common/sample-application.adoc
+  path: modules/n1ql/pages/n1ql-rest-api/index.adoc | xref: n1ql-rest-api/executen1ql.adoc
+  path: modules/ROOT/nav.adoc | xref: manage:manage-buckets/list-buckets.adoc
+  path: modules/ROOT/nav.adoc | xref: manage:manage-buckets/get-bucket-statistics.adoc
+  path: modules/settings/pages/query-settings.adoc | xref: n1ql:n1ql-language-reference/restapi.adoc
+
+repo: //github.com/couchbase/kafka-connect-couchbase | branch: master | component: kafka-connector | version: 3.4
+  path: docs/modules/ROOT/pages/quickstart.adoc | xref: server:security:security-rbac-for-admins-and-apps.adoc
+  path: docs/modules/ROOT/pages/quickstart.adoc | xref: java-sdk::common/webui-cli-access.adoc
+  path: docs/modules/ROOT/pages/quickstart.adoc | xref: server:clustersetup:create-bucket.adoc
+
+repo: //github.com/couchbase/kafka-connect-couchbase | branch: release/3.3 | component: kafka-connector | version: 3.3
+  path: docs/modules/ROOT/pages/quickstart.adoc | xref: server:security:security-rbac-for-admins-and-apps.adoc
+  path: docs/modules/ROOT/pages/quickstart.adoc | xref: sdk-java::common/webui-cli-access.adoc
+  path: docs/modules/ROOT/pages/quickstart.adoc | xref: server:clustersetup:create-bucket.adoc
+
+repo: //github.com/couchbaselabs/docs-couchbase-lite | branch: release/2.0 | component: couchbase-lite | version: 2.0
+  path: modules/ROOT/pages/objc.adoc | xref: 1.4@objectivec.adoc
+  path: modules/ROOT/pages/swift.adoc | xref: sync-gateway::admin-rest-api.adoc?v=2.0.adoc
+
+repo: //github.com/couchbaselabs/docs-couchbase-lite | branch: release/2.1 | component: couchbase-lite | version: 2.1
+  path: modules/ROOT/pages/objc.adoc | xref: 1.4@objectivec.adoc
+
+repo: //github.com/couchbaselabs/docs-sync-gateway | branch: release/1.3 | component: sync-gateway | version: 1.3
+  path: modules/ROOT/pages/server-integration.adoc | xref: sync-gateway-public.adoc
+
+repo: //github.com/couchbaselabs/docs-sync-gateway | branch: release/1.4 | component: sync-gateway | version: 1.4
+  path: modules/ROOT/pages/server-integration.adoc | xref: sync-gateway-public.adoc
+
+repo: //github.com/couchbaselabs/docs-sync-gateway | branch: release/1.5 | component: sync-gateway | version: 1.5
+  path: modules/ROOT/pages/server-integration.adoc | xref: sync-gateway-public.adoc
+
+repo: //github.com/couchbaselabs/docs-sync-gateway | branch: release/2.0 | component: sync-gateway | version: 2.0
+  path: modules/ROOT/pages/compatibility-matrix.adoc | xref: server:understanding-couchbase:buckets-memory-and-storage/buckets.adoc
+  path: modules/ROOT/pages/upgrade.adoc | xref: server:xdcr:xdcr-intro.adoc
+
+repo: //github.com/couchbaselabs/docs-sync-gateway | branch: release/2.1 | component: sync-gateway | version: 2.1
+  path: modules/ROOT/pages/compatibility-matrix.adoc | xref: server:understanding-couchbase:buckets-memory-and-storage/buckets.adoc
+  path: modules/ROOT/pages/deployment-considerations.adoc | xref: server:security:security-x509certsintro.adoc
+
+repo: couchbase/couchbase-operator | branch: 1.0.x | component: operator | version: 1.0
+  path: docs/user/modules/ROOT/pages/cluster-status-guide.adoc | xref: admin-console-access.adoc
+  path: docs/user/modules/ROOT/pages/release-notes.adoc | xref: introduction:whats-new.adoc
