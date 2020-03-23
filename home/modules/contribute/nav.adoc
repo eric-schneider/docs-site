@@ -28,15 +28,18 @@
  ** xref:attributes-and-roles.adoc[Attributes and Roles]
  ** xref:includes.adoc[Include Examples and Partials]
 
-* Conventions & Styles
- ** xref:component-configuration.adoc[Component Structure and Configuration]
- ** xref:nav-menus-and-files.adoc[Navigation Menus and Files]
- ** xref:style-and-voice.adoc[Content Style and Voice]
-
 * Testing Locally
 // ** Overview
  ** xref:install-antora.adoc[Install Antora]
  ** xref:playbook.adoc[Get the Site Playbook Project]
  ** xref:build-site.adoc[Build the Site]
+
+.Style Guide
+* xref:style-and-voice.adoc[Content Style and Voice]
+* Terminology & Usage
+ ** xref:terminology-couchbase.adoc[Couchbase Terms]
+ ** xref:terminology-industry.adoc[Industry Terms]
+* xref:component-configuration.adoc[Component Structure and Configuration]
+* xref:nav-menus-and-files.adoc[Navigation Menus and Files]
 
 //* Additional Resources (Pending)

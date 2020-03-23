@@ -1,0 +1,13 @@
+= Industry Terminology
+
+[abstract]
+A list of industry terms used in Couchbase documentation, and their usage.
+
+This page lists industry terms that are commonly used in the Couchbase documentation, and provides guidance on how to use those terms.
+
+This page _does not_ describe Couchbase terms.
+For guidance on Couchbase-specific terminology, refer to xref:terminology-couchbase.adoc[Couchbase Terminology].
+
+== How to Use This Page
+
+== Terms

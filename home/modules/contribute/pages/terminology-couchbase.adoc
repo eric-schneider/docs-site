@@ -1,0 +1,13 @@
+= Couchbase Terminology
+
+[abstract]
+A list of Couchbase-specific terms and their usage.
+
+This page lists terms that are _specific to Couchbase products_, and provides guidance on how to use those terms in Couchbase documentation.
+Some of these terms may be trademarks, while others may have unique usage in the context of describing Couchbase features and functionality.
+
+For guidance on how to use industry terms that aren't Couchbase-specific, refer to xref:terminology-industry.adoc[Industry Terminology].
+
+== How to Use This Page
+
+== Terms
